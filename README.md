@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Juno: React Starter Kit
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```sh
+npm create juno@latest -- --template react-starter
+```
 
-## Available Scripts
+> 🧑‍🚀 **Seasoned dev?** Delete this file. Have fun!
 
-In the project directory, you can run:
+![A screenshot of the starter kit](https://raw.githubusercontent.com/junobuild/create-juno/main/screenshots/screenshot-starter.png)
 
-### `npm start`
+A starter kit developed for [Juno](https://juno.build) using [React](https://react.dev/).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Links & Resources
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Looking to get started with Juno? Check out the [documentation](https://juno.build).
+- Have a look at [React](https://react.dev/) for question regarding the templates.
+- Got questions, comments or feedback? [Join our discord](https://discord.gg/wHZ57Z2RAG) or [OpenChat](https://oc.app/community/vxgpi-nqaaa-aaaar-ar4lq-cai/?ref=xanzv-uaaaa-aaaaf-aneba-cai).
 
-### `npm test`
+## 🧞 Commands
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+All commands are run from the root of the project, from a terminal:
 
-### `npm run build`
+| Command          | Action                                                      |
+| :--------------- | :---------------------------------------------------------- |
+| `npm install`    | Installs dependencies                                       |
+| `npm run dev`    | Starts frontend dev server at `localhost:5173`              |
+| `juno dev start` | Quickstart the local development emulator (requires Docker) |
+| `npm run build`  | Build your production site to `./dist/`                     |
+| `juno deploy`    | Deploy your project to a Satellite                          |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Launch
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Explore this [guide](https://juno.build/docs/add-juno-to-an-app/create-a-satellite) to launch your Satellite into orbit via Juno's [administration console](https://console.juno.build).
